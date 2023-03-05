@@ -24,7 +24,7 @@ Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\
 Please check [segmentation.md](./segmentation/README.md) for detailed instructions.
 
 ## Referring Image Segmentation with VPD
-VPD achieves xx.xx, xx.xx, and xx.xx oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
+VPD achieves 73.25, 63.51, and 62.80 oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
 
 Please check [refer.md](./refer/README.md) for detailed instructions.
 
