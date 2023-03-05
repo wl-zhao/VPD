@@ -5,9 +5,8 @@
 
 ```bash
 pip install openmim
-mim
-mim install mmcv-full==1.6.2
-mim install mmsegmentation==0.30.0
+mim install mmcv-full
+mim install mmsegmentation
 ```
 
 2. Follow the guide in [mmseg](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md) to prepare the ADE20k dataset.
@@ -17,7 +16,7 @@ mim install mmsegmentation==0.30.0
 
 | Model | Config | Head | Crop Size | Lr Schd | mIoU | mIoU (ms+flip)  | Fine-tuned Model |
 |:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
-| ```VPDSeg_SD-1-5``` | [config](configs/fpn_vpd_sd1-5_512x512_gpu8x2.py) | Semantic FPN | 512x512 | 80K | 53.6 | 54.7 | [Tsinghua Cloud]() |
+| ```VPDSeg_SD-1-5``` | [config](configs/fpn_vpd_sd1-5_512x512_gpu8x2.py) | Semantic FPN | 512x512 | 80K | 53.7 | 54.6 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/78ca31e53c5549779abd/?dl=1) |
 
 
 ## Evaluation
