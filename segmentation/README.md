@@ -1,5 +1,5 @@
 # Semantic Segmentation with VPD
-## Getting started 
+## Getting Started 
 
 1. Install the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) library and some required packages.
 
