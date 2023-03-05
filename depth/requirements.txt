@@ -1,0 +1,8 @@
+torch>=1.6.0
+h5py>=3.6.0
+scipy>=1.7.3
+opencv-python>=4.5.5
+timm>=0.5.4
+albumentations>=1.1.0
+tensorboardX>=2.4.1
+gdown>=4.2.1
