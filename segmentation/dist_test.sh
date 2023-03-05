@@ -6,7 +6,7 @@ NODE_RANK=${NODE_RANK:-0}
 PORT=${PORT:-29500}
 MASTER_ADDR=${MASTER_ADDR:-"127.0.0.1"}
 
-PYTHONPATH="$(dirname $0)/..":$PYTHONPATH \
+PYTHONPATH="$(dirname $0)/..":"$(dirname $0)/../stable-diffusion":$PYTHONPATH \
 python -m torch.distributed.launch \
     --nnodes=$NNODES \
     --node_rank=$NODE_RANK \
