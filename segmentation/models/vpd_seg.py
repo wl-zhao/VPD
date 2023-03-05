@@ -30,6 +30,7 @@ class VPDSeg(BaseSegmentor):
                  sd_path='checkpoints/v1-5-pruned-emaonly.ckpt',
                  unet_config=dict(),
                  class_embedding_path='class_embeddings.pth',
+                 gamma_init_value=1e-4,
                  neck=None,
                  auxiliary_head=None,
                  train_cfg=None,
@@ -55,7 +56,7 @@ class VPDSeg(BaseSegmentor):
         class_embeddings = torch.load(class_embedding_path)
         self.register_buffer('class_embeddings', class_embeddings)
         text_dim = class_embeddings.size(-1)
-        self.gamma = nn.Parameter(torch.ones(text_dim) * 1e-4)
+        self.gamma = nn.Parameter(torch.ones(text_dim) * gamma_init_value)
         self.text_adapter = TextAdapter(text_dim=text_dim)
 
         if neck is not None:
