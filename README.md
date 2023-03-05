@@ -41,6 +41,7 @@ Please check [depth.md](./depth/README.md) for detailed instructions.
 MIT License
 
 ## Acknowledgements
+This code is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), [LAVT](https://github.com/yz93/LAVT-RIS), and [MIM-Depth-Estimation](https://github.com/SwinTransformer/MIM-Depth-Estimation).
 
 ## Citation
 If you find our work useful in your research, please consider citing:
