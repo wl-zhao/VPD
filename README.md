@@ -10,7 +10,13 @@ VPD (<ins>**V**</ins>isual <ins>**P**</ins>erception with Pre-trained <ins>**D**
 [[Project Page]](https://vpd.ivg-research.xyz) [[arXiv]](https://arxiv.org/abs/xxxx.xxxxx)
 
 
----
+## Installation
+First clone this repo, and then run
+```
+git submodule init
+git submodule update
+```
+Download the checkpoint of stable-diffusion (we use v1-5 by default) and put it in the checkpoints/ folder
 
 ## Semantic Segmentation with VPD
 Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\times512$ crops, our VPD can achieve 54.7 mIoU on ADE20K.
