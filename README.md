@@ -21,8 +21,7 @@ Clone this repo, and run
 git submodule init
 git submodule update
 ```
-Download the checkpoint of [stable-diffusion](https://github.com/runwayml/stable-diffusion) (we use `v1-5` by default) and put it in the `checkpoints` folder
-Please also follow the instructions in [stable-diffusion](https://github.com/runwayml/stable-diffusion) to install required packages.
+Download the checkpoint of [stable-diffusion](https://github.com/runwayml/stable-diffusion) (we use `v1-5` by default) and put it in the `checkpoints` folder. Please also follow the instructions in [stable-diffusion](https://github.com/runwayml/stable-diffusion) to install the required packages.
 
 ## Semantic Segmentation with VPD
 Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\times512$ crops, our VPD can achieve 54.6 mIoU on ADE20K.
