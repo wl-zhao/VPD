@@ -1,6 +1,7 @@
 # VPD
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=unleashing-text-to-image-diffusion-models-for-1)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=unleashing-text-to-image-diffusion-models-for-1)
 
 
