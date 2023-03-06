@@ -1,7 +1,7 @@
 # VPD
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=unleashing-text-to-image-diffusion-models-for)     
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=unleashing-text-to-image-diffusion-models-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=unleashing-text-to-image-diffusion-models-for-1)   
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=unleashing-text-to-image-diffusion-models-for-1)
 
 
 Created by [Wenliang Zhao](https://wl-zhao.github.io/)\*, [Yongming Rao](https://raoyongming.github.io/)\*,  [Zuyan Liu](https://scholar.google.com/citations?user=7npgHqAAAAAJ&hl=en)\*, [Benlin Liu](https://liubl1217.github.io), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)†
