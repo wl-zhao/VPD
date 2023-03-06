@@ -24,7 +24,7 @@ git submodule update
 Download the checkpoint of stable-diffusion (we use `v1-5` by default) and put it in the `checkpoints` folder
 
 ## Semantic Segmentation with VPD
-Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\times512$ crops, our VPD can achieve 54.7 mIoU on ADE20K.
+Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\times512$ crops, our VPD can achieve 54.6 mIoU on ADE20K.
 
 Please check [segmentation.md](./segmentation/README.md) for detailed instructions.
 
