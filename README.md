@@ -7,7 +7,7 @@ VPD (<ins>**V**</ins>isual <ins>**P**</ins>erception with Pre-trained <ins>**D**
 
 ![intro](figs/intro.png)
 
-[[Project Page]](https://vpd.ivg-research.xyz) [[arXiv]](https://arxiv.org/abs/xxxx.xxxxx)
+[[Project Page]](https://vpd.ivg-research.xyz) [[arXiv]](https://arxiv.org/abs/2303.02153)
 
 
 ## Installation
@@ -49,7 +49,7 @@ If you find our work useful in your research, please consider citing:
 @article{zhao2023unleashing,
   title={Unleashing Text-to-Image Diffusion Models for Visual Perception},
   author={Zhao, Wenliang and Rao, Yongming and Liu, Zuyan and Liu, Benlin and Zhou, Jie and Lu, Jiwen},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  journal={arXiv preprint arXiv:2303.02153},
   year={2023}
 }
 ```
