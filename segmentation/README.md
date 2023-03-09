@@ -22,9 +22,9 @@ mim install mmsegmentation
 ## Evaluation
 Command format:
 ```
-bash dist_train.sh <CONFIG_PATH> <CHECKPOINT_PATH> <NUM_GPUS> --eval mIoU
+bash dist_test.sh <CONFIG_PATH> <CHECKPOINT_PATH> <NUM_GPUS> --eval mIoU
 ```
 To evaluate a model with multi-scale and flip, run
 ```
-bash dist_train.sh <CONFIG_PATH> <CHECKPOINT_PATH> <NUM_GPUS> --eval mIoU --aug-test
+bash dist_test.sh <CONFIG_PATH> <CHECKPOINT_PATH> <NUM_GPUS> --eval mIoU --aug-test
 ```
