@@ -30,9 +30,16 @@ Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\
 Please check [segmentation.md](./segmentation/README.md) for detailed instructions.
 
 ## Referring Image Segmentation with VPD
-VPD achieves 73.25, 63.51, and 62.80 oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
+VPD achieves 73.46, 63.93, and 63.12 oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
 
-Please check [refer.md](./refer/README.md) for detailed instructions.
+| Dataset | P@0.5 | P@0.6 | P@0.7 | P@0.8 | P@0.9 | OIoU | Mean IoU
+|:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
+RefCOCO | 85.52 | 83.02 | 78.45 | 68.53 | 36.31 | **73.46** | 75.67 
+RefCOCO+ | 76.69 | 73.93 | 69.68 | 60.98 | 32.52 | **63.93** | 67.98 
+RefCOCOg | 75.16 | 71.16 | 65.60 | 55.04 | 29.41 | **63.12** | 66.42 
+
+
+Please check [refer.md](./refer/README.md) for detailed instructions on training and inference code.
 
 ## Depth Estimation with VPD
 VPD obtains 0.254 RMSE on NYUv2 depth estimation benchmark, establishing the new state-of-the-art.
