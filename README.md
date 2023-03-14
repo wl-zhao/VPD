@@ -39,7 +39,7 @@ RefCOCO+ | 76.69 | 73.93 | 69.68 | 60.98 | 32.52 | **63.93** | 67.98
 RefCOCOg | 75.16 | 71.16 | 65.60 | 55.04 | 29.41 | **63.12** | 66.42 
 
 
-Please check [refer.md](./refer/README.md) for detailed instructions on training and inference code.
+Please check [refer.md](./refer/README.md) for detailed instructions on training and inference.
 
 ## Depth Estimation with VPD
 VPD obtains 0.254 RMSE on NYUv2 depth estimation benchmark, establishing the new state-of-the-art.
@@ -48,7 +48,7 @@ VPD obtains 0.254 RMSE on NYUv2 depth estimation benchmark, establishing the new
 |-------------------|-------|-------|--------|--------|--------|-------|
 | **VPD** | 0.254 | 0.964 | 0.995 | 0.999 | 0.069 | 0.030 |
 
-Please check [depth.md](./depth/README.md) for detailed instructions.
+Please check [depth.md](./depth/README.md) for detailed instructions on training and inference.
 
 ## License
 MIT License

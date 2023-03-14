@@ -37,6 +37,14 @@ Your dataset directory should be:
 
 We offer the predicted depths in 16-bit format for NYU-Depth-v2 official test set [here](https://cloud.tsinghua.edu.cn/f/27354f47ba424bb3ad40/?dl=1).
 
+## Training
+
+Run the following instuction to train the VPD-Depth model. We recommend using 8 NVIDIA V100 GPUs to train the model with a total batch size of 24. 
+
+```
+bash train.sh <LOG_DIR>
+```
+
 ## Evaluation
 Command format:
 ```
