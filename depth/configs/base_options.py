@@ -41,12 +41,7 @@ class BaseOptions():
         parser.add_argument('--kitti_crop', type=str, default=None,
                             choices=['garg_crop', 'eigen_crop'])
 
-        parser.add_argument('--backbone',   type=str, default='swin_tiny_v2')
         parser.add_argument('--pretrained',    type=str, default='')
-        parser.add_argument('--window_size', nargs='+', type=int)
-        parser.add_argument('--pretrain_window_size', nargs='+', type=int)
-        parser.add_argument('--use_shift', nargs='+', type=str2bool)
-        parser.add_argument('--depths', nargs='+', type=int)
         parser.add_argument('--drop_path_rate',     type=float, default=0.3)
         parser.add_argument('--use_checkpoint',   type=str2bool, default='False')
         parser.add_argument('--num_deconv',     type=int, default=3)
