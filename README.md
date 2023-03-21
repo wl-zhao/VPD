@@ -1,7 +1,8 @@
 # VPD
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=unleashing-text-to-image-diffusion-models-for)     
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=unleashing-text-to-image-diffusion-models-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=unleashing-text-to-image-diffusion-models-for-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-text-to-image-diffusion-models-for-1/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=unleashing-text-to-image-diffusion-models-for-1)
 
 
 Created by [Wenliang Zhao](https://wl-zhao.github.io/)\*, [Yongming Rao](https://raoyongming.github.io/)\*,  [Zuyan Liu](https://scholar.google.com/citations?user=7npgHqAAAAAJ&hl=en)\*, [Benlin Liu](https://liubl1217.github.io), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)†
@@ -21,7 +22,7 @@ Clone this repo, and run
 git submodule init
 git submodule update
 ```
-Download the checkpoint of [stable-diffusion](https://github.com/runwayml/stable-diffusion) (we use `v1-5` by default) and put it in the `checkpoints` folder
+Download the checkpoint of [stable-diffusion](https://github.com/runwayml/stable-diffusion) (we use `v1-5` by default) and put it in the `checkpoints` folder. Please also follow the instructions in [stable-diffusion](https://github.com/runwayml/stable-diffusion) to install the required packages.
 
 ## Semantic Segmentation with VPD
 Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\times512$ crops, our VPD can achieve 54.6 mIoU on ADE20K.
@@ -29,9 +30,16 @@ Equipped with a lightweight Semantic FPN and trained for 80K iterations on $512\
 Please check [segmentation.md](./segmentation/README.md) for detailed instructions.
 
 ## Referring Image Segmentation with VPD
-VPD achieves 73.25, 63.51, and 62.80 oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
+VPD achieves 73.46, 63.93, and 63.12 oIoU on the validation sets of RefCOCO, RefCOCO+, and G-Ref, repectively.
 
-Please check [refer.md](./refer/README.md) for detailed instructions.
+| Dataset | P@0.5 | P@0.6 | P@0.7 | P@0.8 | P@0.9 | OIoU | Mean IoU
+|:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
+RefCOCO | 85.52 | 83.02 | 78.45 | 68.53 | 36.31 | **73.46** | 75.67 
+RefCOCO+ | 76.69 | 73.93 | 69.68 | 60.98 | 32.52 | **63.93** | 67.98 
+RefCOCOg | 75.16 | 71.16 | 65.60 | 55.04 | 29.41 | **63.12** | 66.42 
+
+
+Please check [refer.md](./refer/README.md) for detailed instructions on training and inference.
 
 ## Depth Estimation with VPD
 VPD obtains 0.254 RMSE on NYUv2 depth estimation benchmark, establishing the new state-of-the-art.
@@ -40,7 +48,7 @@ VPD obtains 0.254 RMSE on NYUv2 depth estimation benchmark, establishing the new
 |-------------------|-------|-------|--------|--------|--------|-------|
 | **VPD** | 0.254 | 0.964 | 0.995 | 0.999 | 0.069 | 0.030 |
 
-Please check [depth.md](./depth/README.md) for detailed instructions.
+Please check [depth.md](./depth/README.md) for detailed instructions on training and inference.
 
 ## License
 MIT License

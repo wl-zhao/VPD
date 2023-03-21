@@ -269,6 +269,21 @@ class TextAdapter(nn.Module):
         texts = repeat(texts, 'n c -> b n c', b=bs)
         return texts
     
+class TextAdapterRefer(nn.Module):
+    def __init__(self, text_dim=768):
+        super().__init__()
+        
+        self.fc = nn.Sequential(
+            nn.Linear(text_dim, text_dim),
+            nn.GELU(),
+            nn.Linear(text_dim, text_dim)
+        )
+
+    def forward(self, latents, texts, gamma):
+        texts_after = self.fc(texts)
+        texts = texts + gamma * texts_after
+        return texts
+
 
 class TextAdapterDepth(nn.Module):
     def __init__(self, text_dim=768):

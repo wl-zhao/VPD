@@ -78,7 +78,6 @@ class LDMOptimizerConstructor(DefaultOptimizerConstructor):
                     scale = 0.01
                 else:
                     scale = 1.0
-                # scale = layer_decay_rate ** (num_layers - layer_id - 1)
 
                 parameter_groups[group_name] = {
                     "weight_decay": this_weight_decay,
