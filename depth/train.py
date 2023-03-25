@@ -225,7 +225,7 @@ def train(train_loader, model, criterion_d, log_txt, optimizer, device, epoch, a
         preds = model(input_RGB, class_ids=batch['class_id'])
 
         optimizer.zero_grad()
-        loss_d = criterion_d(preds['pred_d'].squeeze(), depth_gt)
+        loss_d = criterion_d(preds['pred_d'].squeeze(dim=0), depth_gt)
 
         if args.rank == 0:
             depth_loss.update(loss_d.item(), input_RGB.size(0))
