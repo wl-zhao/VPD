@@ -18,6 +18,11 @@ mim install mmsegmentation
 |:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
 | ```VPDSeg_SD-1-5``` | [config](configs/fpn_vpd_sd1-5_512x512_gpu8x2.py) | Semantic FPN | 512x512 | 80K | 53.7 | 54.6 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/78ca31e53c5549779abd/?dl=1) |
 
+## Training
+```
+bash dist_train.sh <CONFIG_PATH> <NUM_GPUS>
+```
+We use 8 GPUs by default.
 
 ## Evaluation
 Command format:
