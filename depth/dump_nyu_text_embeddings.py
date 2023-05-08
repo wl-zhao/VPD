@@ -11,7 +11,9 @@ from glob import glob
 import json
 
 def main():
-    from clip import FrozenCLIPEmbedderContext
+    import sys
+    sys.path.append('../')
+    from vpd.models import FrozenCLIPEmbedder
 
     paths = glob('nyu_depth_v2/official_splits/train/*')
 
@@ -113,7 +115,7 @@ def main():
 
     print(f"{len(imagenet_classes)} classes, {len(imagenet_templates)} templates")
 
-    text_encoder = FrozenCLIPEmbedderContext(max_length=20)
+    text_encoder = FrozenCLIPEmbedder(max_length=20)
     text_encoder.cuda()
 
     classnames = imagenet_classes
