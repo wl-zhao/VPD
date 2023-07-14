@@ -7,7 +7,7 @@
 
 Created by [Wenliang Zhao](https://wl-zhao.github.io/)\*, [Yongming Rao](https://raoyongming.github.io/)\*,  [Zuyan Liu](https://scholar.google.com/citations?user=7npgHqAAAAAJ&hl=en)\*, [Benlin Liu](https://liubl1217.github.io), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)†
 
-This repository contains PyTorch implementation for paper "Unleashing Text-to-Image Diffusion Models for Visual Perception". 
+This repository contains PyTorch implementation for paper "Unleashing Text-to-Image Diffusion Models for Visual Perception" (ICCV 2023). 
 
 VPD (<ins>**V**</ins>isual <ins>**P**</ins>erception with Pre-trained <ins>**D**</ins>iffusion Models) is a framework that leverages the high-level and low-level knowledge of a pre-trained text-to-image diffusion model to downstream visual perception tasks.
 
