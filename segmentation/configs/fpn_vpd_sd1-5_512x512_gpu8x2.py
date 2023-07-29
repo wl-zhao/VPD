@@ -24,7 +24,7 @@ lr_config = dict(policy='poly', power=1, min_lr=0.0, by_epoch=False,
                  warmup_ratio=1e-6)
 
 
-optimizer = dict(type='AdamW', lr=0.00008, weight_decay=0.005,
+optimizer = dict(type='AdamW', lr=0.00008, weight_decay=0.001,
         paramwise_cfg=dict(custom_keys={'unet': dict(lr_mult=0.1),
                                         'encoder_vq': dict(lr_mult=0.0),
                                         'text_encoder': dict(lr_mult=0.0),
