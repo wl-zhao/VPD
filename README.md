@@ -62,7 +62,7 @@ If you find our work useful in your research, please consider citing:
 @article{zhao2023unleashing,
   title={Unleashing Text-to-Image Diffusion Models for Visual Perception},
   author={Zhao, Wenliang and Rao, Yongming and Liu, Zuyan and Liu, Benlin and Zhou, Jie and Lu, Jiwen},
-  journal={arXiv preprint arXiv:2303.02153},
+  journal={ICCV},
   year={2023}
 }
 ```
